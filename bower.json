@@ -1,0 +1,23 @@
+{
+  "name": "checklist_ember_laravel",
+  "authors": [
+    "angelika-rbo <anjelikar@rboptions.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "^1.10",
+    "ember-data": "^1.10",
+    "handlebars": "^1.3.0"
+  }
+}

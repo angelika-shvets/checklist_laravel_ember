@@ -1,1 +1,0 @@
-# checklist_laravel_ember

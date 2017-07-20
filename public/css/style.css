@@ -1,0 +1,150 @@
+.container{
+    width: 318px;
+    height: auto;
+    margin: 30px auto 0;
+
+}
+#todoapp{
+    min-height: 538px;
+    position: relative;
+    background: #e6e4e6;
+    padding-bottom: 27px;
+}
+.createTodoContainer{
+    width: 318px;
+    height: 50px;
+    display: block;
+    background: #d78a2c;
+    padding-top: 4px;
+    box-shadow: 0 3px 3px #9a9f99;
+}
+.createTodoContainer .createTodoIcon{
+    width: 36px;
+    height: 36px;
+    position: relative;
+    background: #efeff3;
+    float: left;
+    border-radius: 3px;
+    margin: 6px 7px 0;
+    cursor: pointer;
+}
+.createTodoContainer .createTodoIcon p{
+    width: 21px;
+    height: 27px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border: 1px solid #000000;
+    position: absolute;
+    top: -24px;
+    left: 4px;
+    font-size: 27px;
+    font-weight: bold;
+    padding-left: 6px;
+}
+.createTodoContainer .createTodoContent{
+    width: 220px;
+    float: right;
+    padding-right: 10px;
+}
+.createTodoContainer .createTodoContent .createTodoTitle{
+    color: #000000;
+    text-align: right;
+}
+ .todoList{
+    margin: 0;
+    padding: 0;
+}
+ .todoList li{
+    width: 318px;
+    height: 37px;
+    display: inline-block;
+    text-align: right;
+    border-bottom: 2px solid #73736e;
+    padding-top: 14px;
+}
+ .todoList li:nth-child(2n){
+    background: #fffeff;
+}
+ .todoList li:nth-child(2n+1){
+    background: #f4f6e4;
+}
+.todoList li.completed label{
+    color:#7c847d;
+    text-decoration: line-through;
+}
+.destroy{
+    border: none;
+    background: inherit;
+    color: #000000;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    display: inline-block;
+}
+
+.todosFilters{
+    height: 21px;
+    width: 100%;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    background: #fffeff;
+    margin-bottom: 0;
+
+}
+.todosFilters li{
+    display: inline-block;
+    text-align: right;
+
+}
+.todosFilters li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 0 10px;
+}
+.todosFilters li a.selected{
+    font-weight: bold;
+}
+.visibility{
+    display: none;
+}
+.createInput{
+    width: 99%;
+    height: 25px;
+    margin: 10px 0;
+    color:#000000;
+}
+.checkbox {
+    display: none;
+}
+
+
+.checkbox-custom {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+}
+
+.checkbox-custom,
+.label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.checkbox:checked + .checkbox-custom::before {
+    content: "";
+    display: block;
+    position: absolute;
+
+
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+
+    background: #413548;
+    border-radius: 2px;
+}
